@@ -55,7 +55,6 @@ $(function () {
           return layer.msg("登陆失败！");
         }
         layer.msg("登录成功！");
-        console.log(res.spoken);
         localStorage.setItem("token", res.token);
         location.href = "index.html";
       }
